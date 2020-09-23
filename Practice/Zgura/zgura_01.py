@@ -1,0 +1,12 @@
+print('Введите X1')
+a = input()
+print('Введите Y1')
+b = input()
+print('Введите X2')
+c = input()
+print('Введите Y2')
+d = input()
+e = (((int(a)-int(c))**2)+(int(b)-int(d))**2)**0.5
+print('Расстояние между точками равно')
+print(round(e))
+print('метров')
